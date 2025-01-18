@@ -44,13 +44,23 @@
     }
     .Start {
         font-weight: bold;
-        font-size: 52px;   
+        font-size: 32px;   
         text-align: center;
-        width: 100%;
     }
     .text{
         text-align: center;
         margin-top: 15px;
+    }
+    .main-camera{
+        width: 240px;
+        height: 214px;
+        background-image: url(./images/Circle\ design.svg);
+    }
+    .div-start{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 .Start{
@@ -61,4 +71,59 @@
     width: 440px;
     height: 414px;
     background-image: url(./images/Circle\ design.svg);
+}
+.btn-primary{
+    border-radius: 41px;
+    background-color: #E02C6D;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    height: 70px;
+    width: 200px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: none;
+    margin-top: 16px;
+}
+.hr1{
+    margin-top: 69px;
+    background-color: black;
+    width: 80%;
+    opacity: 0.4;
+}
+.head-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 36px;
+}
+.hr2{
+    margin-top: 36px;
+    width: 80%;
+    opacity: 0.4;
+}
+@media screen and (max-width:576px) {
+    .hr1{
+        margin-top: 69px;
+        background-color: black;
+        width: 80%;
+        opacity: 0.4;
+    }
+    .head-footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-top: 36px;
+    }
+    .hr2{
+        margin-top: 36px;
+        width: 80%;
+        opacity: 0.4;
+    }
+}
+h1{
+    text-align: center;
 }
